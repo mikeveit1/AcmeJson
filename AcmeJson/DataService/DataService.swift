@@ -12,7 +12,7 @@ class DataService {
     static let shared = DataService()
     
     func getData(id: String, completion: (Data) -> Void, errorHandler: (Error) -> Void) {
-        guard let path =  URL(string: "https://launchpadapi.\(Config.Config.acme).com/2/items/\(id)\(Config.Config.access)") else { return }
+        guard let path =  URL(string: "\(Config.baseURL)") else { return }
         
         let url = path
         
