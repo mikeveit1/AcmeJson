@@ -23,6 +23,7 @@
 		AD6EF51E2559DB6F004DECDE /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6EF5192559DB6F004DECDE /* Asset.swift */; };
 		AD6EF51F2559DB6F004DECDE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6EF51A2559DB6F004DECDE /* Item.swift */; };
 		AD6EF5242559DB7F004DECDE /* AcmeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6EF5232559DB7F004DECDE /* AcmeResponse.swift */; };
+		AD6EF5342559E5D6004DECDE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6EF5332559E5D6004DECDE /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		AD6EF5192559DB6F004DECDE /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		AD6EF51A2559DB6F004DECDE /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AD6EF5232559DB7F004DECDE /* AcmeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeResponse.swift; sourceTree = "<group>"; };
+		AD6EF5332559E5D6004DECDE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				AD6EF4B52559DA43004DECDE /* SceneDelegate.swift */,
 				AD6EF4BC2559DA45004DECDE /* Assets.xcassets */,
 				AD6EF4C12559DA45004DECDE /* Info.plist */,
+				AD6EF5332559E5D6004DECDE /* Config.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				AD6EF4B82559DA43004DECDE /* ViewController.swift in Sources */,
 				AD6EF5242559DB7F004DECDE /* AcmeResponse.swift in Sources */,
 				AD6EF50D2559DB57004DECDE /* TableViewCell.swift in Sources */,
+				AD6EF5342559E5D6004DECDE /* Config.swift in Sources */,
 				AD6EF51D2559DB6F004DECDE /* Metadata.swift in Sources */,
 				AD6EF51B2559DB6F004DECDE /* Thumbnail.swift in Sources */,
 				AD6EF4B42559DA43004DECDE /* AppDelegate.swift in Sources */,
